@@ -125,6 +125,12 @@ a{
     background: rgb(255, 255, 255);
     width: 280px;
 }
+
+.cart:hover{
+    box-shadow: black 3px 3px 3px;
+    opacity: 0.8;
+}
+
 .carts .blue, .green, .yellow{
     width: 380px;
     display: flex;
@@ -320,3 +326,55 @@ a{
     flex-direction: row;
     gap: 20px;
 }
+
+
+/* opinion table */
+.opinion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.questions{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+
+.opinion-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+}
+
+.opinion-table thead tr { 
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+
+.opinion-table th, .opinion-table td { 
+    padding: 12px 15px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 16px;
+    font-weight: 600;
+}
+.opinion-table .center{
+    text-align: center;
+}
+.opinion-table thead tr th { 
+    border: none; 
+}
+
+select{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
